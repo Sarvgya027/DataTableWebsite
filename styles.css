@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, sans-serif;
+    font-size: 14px;
+    
+  
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  background-color: #F4F7FCBF;
+
+}
+#customerTable > thead > tr > * {
+  /* Your styles here */
+  font-weight: ;
+  background-color: #F4F7FCBF;
+  border-top: none
+}
+
+#customerTable {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+#customerTable th, #customerTable td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+
+}
+
+#customerTable th {
+  background-color: #f2f2f2;
+}
+
+#customerTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+#customerTable tr.selected {
+  background-color: #d6e7dd;
+}
+
+
+#customerTable tr:nth-child(even) {
+  background: #F4F7FCBF;
+} 
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+}
+
+#addCustomer {
+  background: #2264E5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.paginationButtons {
+  display: flex;
+  gap: 40px;
+
+}
+
+#rowsPerPageBtn {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rowsPerPageSelect {
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+
+.paginationButtons > button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.paginationButtons > button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.paginationButtons > select {
+
+}
+
+
+
+select {
+  width: auto;
+  font-size: 12px;
+  border-radius: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #F4F7FCBF;
+  text-align: center;
+
+}
+select option {
+  font-size: 12px;
+  padding: 2px;
+}
+
+.rate-input {
+  background-color: #F4F7FCBF;
+
+}
+
+#customerTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#customerTable th:nth-child(3),
+#customerTable td:nth-child(3) {
+  width: 20%; 
+}
+
+#customerTable th:nth-child(3),
+#customerTable td:nth-child(3) {
+  word-wrap: break-word;
+}
+
+#customerTable tr.selected {
+  background-color: #d6e7dd !important; 
+}
+
+
+.balance-positive {
+  color: #14804A;
+}
+
+.balance-negative {
+  color: #D12953;
+}
+ 
+td.status-open > select {
+  border: none;
+  background-color: #F0F1FA;
+  color: #2264E5;
+}
+
+td.status-paid > select {
+  border: none;
+  background: #E1FCEF;
+  color: green;
+}
+
+td.status-due > select {
+  border: none;
+  background: #FAF0F3;
+  color: #d12953;
+}
+td.status-inactive > select {
+  border: none;
+  background-color: #E9EDF5;
+}
+
+
+
+.balance-positive {
+  color: #14804A;
+}
+
+.balance-negative {
+  color: #D12953;
+}
+
+.balance-input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
