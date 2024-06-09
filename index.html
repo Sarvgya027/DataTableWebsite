@@ -9,10 +9,14 @@
 <body>
   <div class="container">
     <header>
-      <input type="text" id="search" placeholder="Search...">
-      <button id="addCustomer">+ Add customer</button>
-      <button id="deleteSelected" style="display: none;">Delete Selected</button>
-    </header>
+      <div class="searchDelete">
+        <input type="text" id="search" placeholder="Search...">
+        <button id="deleteSelected" style="display: none;">Delete</button>
+      </div>
+      <div class="addCust">
+        <button id="addCustomer">+ Add customer</button>
+      </div>
+      </header>
     <table id="customerTable">
       <thead>
         <tr>
@@ -32,7 +36,6 @@
     </table>
     <footer>
       <div class="footerLeft">
-        
         <span id="pageInfo"></span>
       </div>
       <div class="paginationButtons">
@@ -43,6 +46,9 @@
               <option value="10">10</option>
               <option value="15">15</option>
               <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
             </select>
           </div>
           <button id="prevPage"><</button>
